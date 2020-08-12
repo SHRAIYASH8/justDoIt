@@ -1,4 +1,5 @@
-# TodoApp
+# JustDoItApp
+Add to wishlist. Just Do It is a task management app to help you stay organized and manage your day-to-day. You can use KS Just Do It to make shopping lists or task lists, take notes, record collections, plan an event, or set reminders to increase your productivity and focus on what matters to you.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 
