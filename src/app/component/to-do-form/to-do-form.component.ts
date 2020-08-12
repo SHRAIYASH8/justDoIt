@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ToDo } from '../../model/ToDo';
-import { v4 as uuidv4} from 'UUID';
 import { TodoService } from "../../service/todo.service";
 
 @Component({
@@ -17,8 +16,9 @@ export class ToDoFormComponent implements OnInit {
   }
 
   handleAdd(){
+    let random = Math.floor(Math.random() * (999999 - 100000)) + 100000 + "";
     const newTodo:ToDo = {
-      id:uuidv4(),
+      id:random,
       title:this.todoTitle,
       date:new Date(),
       isComplete:false
